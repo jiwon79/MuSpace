@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import MyPlanet from './../components/MyPlanet'
+import BackgroundPlanet from './../components/BackgroundPlanet'
 
 export default function MySpace() {
   const [focus, setFocus] = useState(false);
@@ -11,7 +11,7 @@ export default function MySpace() {
         setFocus(!focus);
         }
       }>animation</button>
-      <MyPlanet
+      <BackgroundPlanet
         focus = {focus}
       />
     </div>
