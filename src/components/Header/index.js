@@ -9,7 +9,7 @@ export default function Header() {
       <ul className="gnb">
         <li>
           <NavLink 
-            to="/space"
+            to="/journey"
             className="gnb__link"
             activeClassName="active-link"
           >
@@ -18,7 +18,7 @@ export default function Header() {
         </li>
         <li>
           <NavLink 
-            exact to="/"
+            exact to="/MySpace/home"
             className="gnb__link"
             activeClassName="active-link"
           >
