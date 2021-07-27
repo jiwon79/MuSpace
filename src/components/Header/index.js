@@ -1,4 +1,5 @@
 import React from 'react'
+import './Header.css'
 
 export default function Header() {
   return (
@@ -9,6 +10,7 @@ export default function Header() {
         <ul>마이스페이스</ul>
         <ul>아워스페이스</ul>
       </li>
+      <img className="search-icon" src="/img/searchIcon.png" alt="search-icon"/>
     </div>
   )
 }

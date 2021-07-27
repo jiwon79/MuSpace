@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px
+}
+
+.logo {
+  margin: 0;
+}
+
+.gnb {
+  list-style: none;
+}
+
+.gnb ul {
+  margin: 0;
+  float: left;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+}
