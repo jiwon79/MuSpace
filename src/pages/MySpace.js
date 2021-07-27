@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import Header from './../components/Header'
 import MyPlanet from './../components/MyPlanet'
 
 export default function MySpace() {
@@ -7,7 +6,6 @@ export default function MySpace() {
 
   return (
     <div>
-      <Header/>
       <button onClick={() => {
         console.log(focus);
         setFocus(!focus);
