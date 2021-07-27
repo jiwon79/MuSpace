@@ -30,11 +30,8 @@
   color: #FFBE42;
   text-decoration: underline;
 }
+
 .search-icon {
   width: 25px;
   height: 25px;
-}
-
-.active {
-  font-size: 30px;
 }
