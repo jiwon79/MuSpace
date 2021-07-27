@@ -1,4 +1,5 @@
-import { Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+import React from 'react'
+import { Redirect, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import Home from './pages/MySpace/Home';
@@ -12,13 +13,15 @@ function App() {
       <Router>
         <Header/>
         <Switch>
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/">
+            <Redirect to="/MySpace/home"/>
+          </Route>
           <Route path="/MySpace">
             <Route exact path="/MySpace" component={Home}/>
             <Route path="/MySpace/home" component={Home}/>
             <Route path="/MySpace/planet" component={Planet}/>
           </Route>
-          <Route path="/our" component={OurSpace}/>
+          <Route path="/OurSpace" component={OurSpace}/>
           <Route path="/journey" component={SpaceJourney}/>
         </Switch>
       </Router>

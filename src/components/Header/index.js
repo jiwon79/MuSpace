@@ -26,8 +26,8 @@ export default function Header() {
           </NavLink>
         </li>
         <li>
-          <NavLink 
-            to="/our"
+          <NavLink
+            to="/OurSpace"
             className="gnb__link"
             activeClassName="active-link"
           >
