@@ -1,0 +1,32 @@
+@keyframes planet-animation {
+  0% {
+    top: 0;
+    width: 60vh;
+    height: 60vh;    
+  }
+
+  100% {
+    top: 10vh;
+    width: 110vw;
+    height: 110vw;
+  }
+}
+
+.background-planet {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.planet-img {
+  width: 60vh;
+  height: 60vh;
+  position: relative;
+  margin: 20vh auto;
+}
+
+.planet-animation {
+  animation-name : planet-animation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
