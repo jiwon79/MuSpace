@@ -6,6 +6,8 @@
 
 .logo {
   margin: 0;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .gnb {
@@ -19,6 +21,15 @@
   float: left;
 }
 
+.gnb__link {
+  color: white;
+  text-decoration: none;
+}
+
+.active-link {
+  color: #FFBE42;
+  text-decoration: underline;
+}
 .search-icon {
   width: 25px;
   height: 25px;
