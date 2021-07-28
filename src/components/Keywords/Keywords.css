@@ -4,6 +4,12 @@
   margin: 30vh auto;
   justify-content: center;
   flex-wrap: wrap;
+  opacity: 0;
+
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
 .keywords__item {

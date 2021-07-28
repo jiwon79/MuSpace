@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
 .App {
   height: 100vh;
   position: relative;
