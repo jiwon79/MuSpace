@@ -26,6 +26,7 @@
   top: 50vh;
   transform: translate(0, -50%);
   margin: 0 auto;
+  z-index: 0;
 }
 
 .planet-animation {
