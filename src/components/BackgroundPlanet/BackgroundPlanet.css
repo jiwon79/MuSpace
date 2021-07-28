@@ -21,6 +21,7 @@
 .planet-img {
   width: 60vh;
   height: 60vh;
+  max-height: 1200px;
   position: absolute;
   top: 50vh;
   transform: translate(0, -50%);
