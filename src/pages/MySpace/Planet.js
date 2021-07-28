@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import BackgroundPlanet from './../../components/BackgroundPlanet'
 
 export default function Planet({menu, setMenu}) {
-  setMenu('myspace');
+  useEffect(() => {
+    setMenu('myspace');
+  }, [menu, setMenu]);
   
   return (
     <div>

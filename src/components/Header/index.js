@@ -17,7 +17,7 @@ export default function Header({menu}) {
         </li>
         <li>
           <Link 
-            exact to="/MySpace/home"
+            to="/MySpace/home"
             className={['gnb__link', menu==='myspace' && 'active-link'].join(' ')}
           >
             마이스페이스
