@@ -12,11 +12,16 @@ export default function Home({menu, setMenu}) {
 
   return (
     <div>
-      {/* <button onClick={() => {
-        console.log(focus);
-        setFocus(!focus);
-        }
-      }>animation</button> */}
+      <button 
+        onClick={() => {
+          console.log(focus);
+          setFocus(!focus);
+          }}
+        className="animation-button"
+      >
+        animation
+      </button>
+
       <BackgroundPlanet
         focus = {focus}
       />
@@ -25,7 +30,12 @@ export default function Home({menu, setMenu}) {
         <Link to="/MySpace/planet">
           <img className="album__play" src="/img/playIcon.png" alt="play-icon"/>
         </Link>
+        <div className="album__text">
+          <p className="album__title">Fix You</p>
+          <p className="album__singer">COLDPLAY</p>
+        </div>
       </div>
+      
 
     </div>
   )

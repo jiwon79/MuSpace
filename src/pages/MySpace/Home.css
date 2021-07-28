@@ -1,3 +1,7 @@
+.animation-button {
+  display: none;
+}
+
 .album {
   display: flex;
   width: 100vw;
@@ -18,4 +22,21 @@
   position: absolute;
   top: 50vh;
   transform: translate(20%, -50%);
+}
+
+.album__text {
+  text-align: center;
+  position: absolute;
+  bottom: 10vh;
+}
+
+.album__title {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+
+.album__singer {
+  font-size: 18px;
+  margin: 0;
 }
