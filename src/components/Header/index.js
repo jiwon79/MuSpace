@@ -1,38 +1,35 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Header.css'
 
-export default function Header() {
+export default function Header({menu}) {
   return (
     <div className="header">
       <p className="logo">LOGO</p>
       <ul className="gnb">
         <li>
-          <NavLink 
+          <Link 
             to="/journey"
-            className="gnb__link"
-            activeClassName="active-link"
+            className={['gnb__link', menu==='journey' && 'active-link'].join(' ')}
           >
             스페이스저니
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink 
+          <Link 
             exact to="/MySpace/home"
-            className="gnb__link"
-            activeClassName="active-link"
+            className={['gnb__link', menu==='myspace' && 'active-link'].join(' ')}
           >
             마이스페이스
-          </NavLink>
+          </Link>
         </li>
         <li>
-          <NavLink
+          <Link
             to="/OurSpace"
-            className="gnb__link"
-            activeClassName="active-link"
+            className={['gnb__link', menu==='ourspace' && 'active-link'].join(' ')}
           >
             아워스페이스
-          </NavLink>
+          </Link>
         </li>
       </ul>
       <img className="search-icon" src="/img/searchIcon.png" alt="search-icon"/>
