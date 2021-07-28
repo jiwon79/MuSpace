@@ -9,7 +9,9 @@ export default function Planet({menu, setMenu}) {
   return (
     <div>
       planet
-      <BackgroundPlanet/>
+      <BackgroundPlanet
+        focus={true}
+      />
     </div>
   )
 }

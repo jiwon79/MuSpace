@@ -1,0 +1,21 @@
+.album {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
+
+.album__cover {
+  position: absolute;
+  top: 50vh;
+  transform: translate(0, -50%);
+  width: 50vh;
+  height: 50vh;
+  border-radius: 50%;
+  border: 8px solid #000000;
+}
+
+.album a {
+  position: absolute;
+  top: 50vh;
+  transform: translate(20%, -50%);
+}
